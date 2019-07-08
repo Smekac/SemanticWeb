@@ -1,0 +1,609 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-7="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#hasActor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#hasActor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Actor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#hasDirector -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#hasDirector">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Director"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#hasGenre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#hasGenre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#birthDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#birthDate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#budget -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#budget">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#debutShowing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#debutShowing">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#name">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#title">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Actor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Director"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Anthony_Russo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Anthony_Russo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Director"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anthony Russo</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasActor rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Hai-Qing"/>
+        <hasActor rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Johnny_Huang"/>
+        <hasActor rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Yi_Zhang"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre1"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre2"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre3"/>
+        <budget rdf:datatype="http://www.w3.org/2001/XMLSchema#long">575000000</budget>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operation Red Sea</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre1"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre2"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre6"/>
+        <budget rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong">376000000</budget>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Godzilla: King of the Monsters</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre1"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre6"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre9"/>
+        <budget rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong">364000000</budget>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shazam!</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre13"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre14"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre6"/>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dumbo</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre1"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre15"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre3"/>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Wick: Chapter 3 – Parabellum</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre3"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre7"/>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Us</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre2"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre7"/>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glass</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre1"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre9"/>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark Phoenix</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre13"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre4"/>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Secret Life of Pets 2</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre1"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre4"/>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Men in Black International</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre1"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre13"/>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Lego Movie 2: The Second Part</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasDirector rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Anthony_Russo"/>
+        <hasDirector rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Joe_Russo"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre1"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre5"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre6"/>
+        <budget rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong">2761000000</budget>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avengers: Endgame</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre17"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre5"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre6"/>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rocketman</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre3"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre7"/>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escape Room</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre1"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre6"/>
+        <budget rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong">1128000000</budget>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Captain Marvel</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre14"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre2"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre6"/>
+        <budget rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong">874000000</budget>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aladdin</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre6"/>
+        <budget rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong">699000000</budget>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Wandering Earth</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre13"/>
+        <budget rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong">519000000</budget>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">How to Train Your Dragon: The Hidden World</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre13"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre2"/>
+        <budget rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong">496000000</budget>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toy Story 4</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre13"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre6"/>
+        <budget rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong">426000000</budget>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pokemon Detective Pikachu</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Film"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre2"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre6"/>
+        <budget rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong">404000000</budget>
+        <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alita: Battle Angel</title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akcija</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ratni</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Istorijski</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sportski</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Animirani</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porodicni</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krimi</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dokumentarni</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biografski</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misterija</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drama</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Triler</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Komedija</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avantura</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fantazija</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horor</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romansa</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Genre"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naucna fantastika</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Hai-Qing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Hai-Qing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Actor"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hai-Qing</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Joe_Russo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Joe_Russo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Director"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joe Russo</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Johnny_Huang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Johnny_Huang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Actor"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Johnny Huang</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Yi_Zhang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Yi_Zhang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stojk/ontologies/2019/6/untitled-ontology-7#Actor"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yi Zhang</name>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
+

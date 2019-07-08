@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+
+ <div style="margin: auto; width: 50%; text-align: center;">
+      <form id="recommendationForm">
+        <input  type="text" id="genre" placeholder="Set genre of film" autocomplete="off" size="30" style="height: 30px;"/>
+        <button class="xs btn-outline-info" type="submit"> Search </button>
+      </form>
+      <hr />
+      <ul id="filmList" style="text-align: left;">  <!-- bookList Dodajemo listu filmova !!!-->
+
+      </ul>
+    </div>
+  <script src="{{ url_for('static', filename='js/recommender.js') }}"></script>
+
+{% endblock content %}
